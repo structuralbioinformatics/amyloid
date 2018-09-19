@@ -1,0 +1,37 @@
+<ROSETTASCRIPTS>
+  <TASKOPERATIONS>
+    <InitializeFromCommandline name="init"/>
+  </TASKOPERATIONS>
+  <RESIDUE_SELECTORS>
+    <Chain name="A" chains="A" />
+    <Chain name="B" chains="B" />
+	</RESIDUE_SELECTORS>
+  <FILTERS>
+    <Ddg name="ddg_filter" threshold="50" confidence="1.0" />
+    <Sasa name="sasa" threshold="800" confidence="1.0"                      />
+    <ShapeComplementarity name="shape"                                      />
+    <RmsdFromResidueSelectorFilter name="RMSDA" reference_name="native"
+      reference_selector="A" query_selector="A" confidence="0"              />
+    <RmsdFromResidueSelectorFilter name="RMSDB" reference_name="native"
+      reference_selector="B" query_selector="B" confidence="0"              />
+  </FILTERS>
+  <MOVERS>
+    <SavePoseMover name="save" restore_pose="0" reference_name="native"    />
+    <FastRelax name="relax"                                                />
+    <DockingProtocol name="docking" partners="A_B"  task_operations="init" />
+    <InterfaceAnalyzerMover name="analyze"                                 />
+    <ddG name="ddg_mover" per_residue_ddg="1"                              />
+  </MOVERS>
+  <PROTOCOLS>
+    <Add mover="save"        />
+    <Add mover="docking"     />
+    <Add mover="relax"       />
+    <Add mover="analyze"     />
+    <Add mover="ddg_mover"   />
+    <Add filter="ddg_filter" />
+    <Add filter="sasa"       />
+    <Add filter="shape"      />
+    <Add filter="RMSDA"      />
+    <Add filter="RMSDB"      />
+  </PROTOCOLS>
+</ROSETTASCRIPTS>
