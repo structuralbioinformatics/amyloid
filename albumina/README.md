@@ -57,8 +57,22 @@ their respective folders.
 
 ## Docking
 
+*Actual execution was performed on cluster, thus naming of the decoys include JOBID and ARRAYID* 
+
 ```bash
 cd docking/amyloid_alpha
-
-cd ..
+$ROSETTABIN/rosetta_scripts.linuxiccrelease -parser:protocol ../docking.xml -s alpha.pdb -ex1 -ex2 -docking:sc_min -randomize2 -randomize1 -nstruct 10000 -out:file:silent alpha_dock.silent
+minisilent.py -in:file alpha_dock.silent -out:file alpha_dock.minisilent.gz
+cd ../amyloid_beta
+$ROSETTABIN/rosetta_scripts.linuxiccrelease -parser:protocol ../docking.xml -s beta.pdb -ex1 -ex2 -docking:sc_min -randomize2 -randomize1 -nstruct 10000 -out:file:silent beta_dock.silent
+minisilent.py -in:file beta_dock.silent -out:file beta_dock.minisilent.gz
+cd ../albumin_cterm_lid
+$ROSETTABIN/rosetta_scripts.linuxiccrelease -parser:protocol ../docking.xml -s lid.pdb -ex1 -ex2 -docking:sc_min -randomize2 -randomize1 -nstruct 10000 -out:file:silent lid_dock.silent
+minisilent.py -in:file lid_dock.silent -out:file lid_dock.minisilent.gz
+cd ../..
 ```
+
+## Analysis
+
+Analysis of the generated decoys is performed in the attached *jupyter notebook*.
+
