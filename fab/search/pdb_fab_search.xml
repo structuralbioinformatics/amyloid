@@ -1,0 +1,30 @@
+<orgPdbCompositeQuery version="1.0">
+ <queryRefinement>
+  <queryRefinementLevel>0</queryRefinementLevel>
+  <orgPdbQuery>
+    <queryType>org.pdb.query.simple.OrganismQuery</queryType>
+    <organismName>Homo sapiens</organismName>
+  </orgPdbQuery>
+ </queryRefinement>
+ <queryRefinement>
+  <queryRefinementLevel>1</queryRefinementLevel>
+  <conjunctionType>and</conjunctionType>
+  <orgPdbQuery>
+    <queryType>org.pdb.query.simple.ResolutionQuery</queryType>
+    <description>Resolution is between 0.0 and 2.5 </description>
+    <refine.ls_d_res_high.comparator>between</refine.ls_d_res_high.comparator>
+    <refine.ls_d_res_high.min>0.0</refine.ls_d_res_high.min>
+    <refine.ls_d_res_high.max>2.5</refine.ls_d_res_high.max>
+  </orgPdbQuery>
+ </queryRefinement>
+ <queryRefinement>
+  <queryRefinementLevel>2</queryRefinementLevel>
+  <conjunctionType>and</conjunctionType>
+  <orgPdbQuery>
+    <queryType>org.pdb.query.simple.TokenKeywordQuery</queryType>
+    <description>Keyword: IMMUNOGLOBULIN </description>
+    <struct_keywords.pdbx_keywords.comparator>contains</struct_keywords.pdbx_keywords.comparator>
+    <struct_keywords.pdbx_keywords.value>IMMUNOGLOBULIN</struct_keywords.pdbx_keywords.value>
+  </orgPdbQuery>
+ </queryRefinement>
+</orgPdbCompositeQuery>

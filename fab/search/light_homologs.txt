@@ -1,0 +1,56 @@
+{
+  "2F5A.L": [
+    "2F5B.L", 
+    "1AD0.A", 
+    "1AJ7.L", 
+    "1FVD.A", 
+    "1OPG.L"
+  ], 
+  "1OPG.L": [
+    "2F5B.L", 
+    "1AD0.A", 
+    "1FVD.A", 
+    "2F5A.L", 
+    "1AJ7.L"
+  ], 
+  "8FAB.A": [
+    "2FB4.L"
+  ], 
+  "1IGM.L": [
+    "1FVC.A"
+  ], 
+  "2F5B.L": [
+    "1AJ7.L", 
+    "1AD0.A", 
+    "1FVD.A", 
+    "2F5A.L", 
+    "1OPG.L"
+  ], 
+  "2FB4.L": [
+    "8FAB.A"
+  ], 
+  "1AD0.A": [
+    "2F5B.L", 
+    "1AJ7.L", 
+    "1FVD.A", 
+    "2F5A.L", 
+    "1OPG.L"
+  ], 
+  "1FVC.A": [
+    "1IGM.L"
+  ], 
+  "1FVD.A": [
+    "2F5B.L", 
+    "1AD0.A", 
+    "1AJ7.L", 
+    "2F5A.L", 
+    "1OPG.L"
+  ], 
+  "1AJ7.L": [
+    "2F5B.L", 
+    "1AD0.A", 
+    "1FVD.A", 
+    "2F5A.L", 
+    "1OPG.L"
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "2F5A.H": [
+    "1OPG.H", 
+    "1AD0.B", 
+    "8FAB.B", 
+    "2F5B.H", 
+    "2FB4.H", 
+    "1AJ7.H", 
+    "1FVD.B"
+  ], 
+  "1OPG.H": [
+    "2F5A.H", 
+    "1AD0.B", 
+    "8FAB.B", 
+    "2F5B.H", 
+    "2FB4.H", 
+    "1AJ7.H", 
+    "1FVD.B"
+  ], 
+  "2FB4.H": [
+    "2F5A.H", 
+    "1OPG.H", 
+    "1AD0.B", 
+    "8FAB.B", 
+    "2F5B.H", 
+    "1AJ7.H", 
+    "1FVD.B"
+  ], 
+  "1IGM.H": [
+    "1FVC.B"
+  ], 
+  "1AD0.B": [
+    "2F5A.H", 
+    "1OPG.H", 
+    "8FAB.B", 
+    "2F5B.H", 
+    "2FB4.H", 
+    "1AJ7.H", 
+    "1FVD.B"
+  ], 
+  "8FAB.B": [
+    "2F5A.H", 
+    "1OPG.H", 
+    "1AD0.B", 
+    "2F5B.H", 
+    "2FB4.H", 
+    "1AJ7.H", 
+    "1FVD.B"
+  ], 
+  "2F5B.H": [
+    "2F5A.H", 
+    "1OPG.H", 
+    "1AD0.B", 
+    "8FAB.B", 
+    "2FB4.H", 
+    "1AJ7.H", 
+    "1FVD.B"
+  ], 
+  "1FVC.B": [
+    "1IGM.H"
+  ], 
+  "1AJ7.H": [
+    "2F5A.H", 
+    "1OPG.H", 
+    "1AD0.B", 
+    "8FAB.B", 
+    "2F5B.H", 
+    "2FB4.H", 
+    "1FVD.B"
+  ], 
+  "1FVD.B": [
+    "2F5A.H", 
+    "1OPG.H", 
+    "1AD0.B", 
+    "8FAB.B", 
+    "2F5B.H", 
+    "2FB4.H", 
+    "1AJ7.H"
+  ]
+}

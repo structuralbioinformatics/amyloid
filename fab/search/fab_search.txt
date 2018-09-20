@@ -1,0 +1,1394 @@
+{
+  "@id": "1AD0", 
+  "polymer": [
+    {
+      "@entityNr": "1", 
+      "@length": "213", 
+      "@type": "protein", 
+      "@weight": "23182.9", 
+      "chain": [
+        {
+          "@id": "A"
+        }, 
+        {
+          "@id": "C"
+        }
+      ], 
+      "Taxonomy": {
+        "@name": "Homo sapiens", 
+        "@id": "9606"
+      }, 
+      "polymerDescription": {
+        "@description": "ANTIBODY A5B7 (LIGHT CHAIN)"
+      }, 
+      "fragment": {
+        "@desc": "FAB FRAGMENT"
+      }, 
+      "mutation": {
+        "@desc": "A13V, K24R, &Delta;Q46, N27S, I29S, D30V, K31T, L33I, N34H, K42L, L46S, N50A, N52S, Q55A, T56S, F71Y, L89Q, Q90H, H91W, I92S, R94K, R96P, I106V"
+      }
+    }, 
+    {
+      "@entityNr": "2", 
+      "@length": "220", 
+      "@type": "protein", 
+      "@weight": "23830.8", 
+      "chain": [
+        {
+          "@id": "B"
+        }, 
+        {
+          "@id": "D"
+        }
+      ], 
+      "Taxonomy": {
+        "@name": "Homo sapiens", 
+        "@id": "9606"
+      }, 
+      "polymerDescription": {
+        "@description": "ANTIBODY A5B7 (HEAVY CHAIN)"
+      }, 
+      "fragment": {
+        "@desc": "FAB FRAGMENT"
+      }
+    }
+  ]
+}{
+  "@id": "1AJ7", 
+  "polymer": [
+    {
+      "@entityNr": "1", 
+      "@length": "214", 
+      "@type": "protein", 
+      "@weight": "23465.2", 
+      "chain": {
+        "@id": "L"
+      }, 
+      "Taxonomy": {
+        "@name": "Mus musculus", 
+        "@id": "10090"
+      }, 
+      "polymerDescription": {
+        "@description": "IMMUNOGLOBULIN 48G7 FAB (LIGHT CHAIN)"
+      }, 
+      "fragment": {
+        "@desc": "VARIABLE DOMAINS OF LIGHT AND HEAVY CHAINS AND CONSTANT DOMAINS OF LIGHT AND HEAVY CHAINS"
+      }, 
+      "mutation": {
+        "@desc": "V15L, D17E, T20S, I21L, Q24R, D28E, N30S, N31G, N34S, Y36L, G41D, K42G, P44I, L46R, G50A, N53T, E55D, T56S, S60K, G66R, T69S, F71Y, I72S, F73L, Q79E, P80S, I83F, T85D, Q89L, D92A, N93S, L94Y, L96R, N177S"
+      }
+    }, 
+    {
+      "@entityNr": "2", 
+      "@length": "217", 
+      "@type": "protein", 
+      "@weight": "23062.9", 
+      "chain": {
+        "@id": "H"
+      }, 
+      "Taxonomy": {
+        "@name": "Homo sapiens", 
+        "@id": "9606"
+      }, 
+      "macroMolecule": {
+        "@name": "Ig gamma-1 chain C region", 
+        "accession": {
+          "@id": "P01857"
+        }
+      }, 
+      "polymerDescription": {
+        "@description": "IMMUNOGLOBULIN 48G7 FAB (HEAVY CHAIN)"
+      }, 
+      "fragment": {
+        "@desc": "VARIABLE DOMAINS OF LIGHT AND HEAVY CHAINS AND CONSTANT DOMAINS OF LIGHT AND HEAVY CHAINS"
+      }
+    }
+  ]
+}{
+  "@id": "1AQK", 
+  "polymer": [
+    {
+      "@entityNr": "1", 
+      "@length": "216", 
+      "@type": "protein", 
+      "@weight": "22699.2", 
+      "chain": {
+        "@id": "L"
+      }, 
+      "Taxonomy": {
+        "@name": "Homo sapiens", 
+        "@id": "9606"
+      }, 
+      "macroMolecule": {
+        "@name": "Ig lambda-3 chain C regions", 
+        "accession": {
+          "@id": "P0CG06"
+        }
+      }, 
+      "polymerDescription": {
+        "@description": "FAB B7-15A2"
+      }, 
+      "fragment": {
+        "@desc": "FAB"
+      }, 
+      "mutation": {
+        "@desc": "K17R, I18V, S23T, T25S, S26N, H33F, H34T, Q40H, V41L, Y51F, D53N, N54T, I64F, R81Q, F93Y, &Delta;G118, W99A, V100R, A104G, K106R, T160N, T167K, T213A"
+      }, 
+      "details": {
+        "@desc": "IMMUNOGLOBULIN HUMAN FAB"
+      }
+    }, 
+    {
+      "@entityNr": "2", 
+      "@length": "226", 
+      "@type": "protein", 
+      "@weight": "24290.6", 
+      "chain": {
+        "@id": "H"
+      }, 
+      "Taxonomy": {
+        "@name": "Homo sapiens", 
+        "@id": "9606"
+      }, 
+      "macroMolecule": {
+        "@name": "Ig gamma-1 chain C region", 
+        "accession": {
+          "@id": "P01857"
+        }
+      }, 
+      "polymerDescription": {
+        "@description": "FAB B7-15A2"
+      }, 
+      "fragment": {
+        "@desc": "FAB"
+      }, 
+      "mutation": {
+        "@desc": "S30N, G33A, M34I, A50F, W52S, N57K, K58N, Y80F, M81L, A88P, V93I, E101F, G102Q, R103Q, W104L, R106L, &Delta;T125, &Delta;T126, &Delta;V127, &Delta;T128, &Delta;T129, &Delta;I130, &Delta;G131, Y108A, Y109P, Y112I, L118M, E158Q, R220K"
+      }, 
+      "details": {
+        "@desc": "IMMUNOGLOBULIN HUMAN FAB"
+      }
+    }
+  ]
+}{
+  "@id": "1BJM", 
+  "polymer": {
+    "@entityNr": "1", 
+    "@length": "216", 
+    "@type": "protein", 
+    "@weight": "22770.2", 
+    "chain": [
+      {
+        "@id": "A"
+      }, 
+      {
+        "@id": "B"
+      }
+    ], 
+    "Taxonomy": {
+      "@name": "Homo sapiens", 
+      "@id": "9606"
+    }, 
+    "synonym": {
+      "@name": "BENCE-JONES PROTEIN"
+    }, 
+    "polymerDescription": {
+      "@description": "LOC - LAMBDA 1 TYPE LIGHT-CHAIN DIMER"
+    }, 
+    "mutation": {
+      "@desc": "I19T, G31E, T33S, N35T, Q39H, P41S, R43T, H50Y, S51E, N52D, Q54S, P56A, P60S, G65A, S81P, A85T, &Delta;N115, G97D, R98V, Y99A"
+    }, 
+    "details": {
+      "@desc": "CRYSTALLIZED IN NA/K SO4"
+    }
+  }
+}{
+  "@id": "1BRE", 
+  "polymer": {
+    "@entityNr": "1", 
+    "@length": "108", 
+    "@type": "protein", 
+    "@weight": "11945.2", 
+    "chain": [
+      {
+        "@id": "A"
+      }, 
+      {
+        "@id": "B"
+      }, 
+      {
+        "@id": "C"
+      }, 
+      {
+        "@id": "D"
+      }, 
+      {
+        "@id": "E"
+      }, 
+      {
+        "@id": "F"
+      }
+    ], 
+    "Taxonomy": {
+      "@name": "Homo sapiens", 
+      "@id": "9606"
+    }, 
+    "synonym": {
+      "@name": "BENCE-JONES"
+    }, 
+    "polymerDescription": {
+      "@description": "BENCE-JONES KAPPA I PROTEIN BRE"
+    }
+  }
+}{
+  "@id": "1CLY", 
+  "polymer": [
+    {
+      "@entityNr": "1", 
+      "@length": "219", 
+      "@type": "protein", 
+      "@weight": "24078.1", 
+      "chain": {
+        "@id": "L"
+      }, 
+      "Taxonomy": {
+        "@name": "Homo sapiens", 
+        "@id": "9606"
+      }, 
+      "synonym": {
+        "@name": "CBR96 FAB (IMMUNOGLOBULIN)"
+      }, 
+      "macroMolecule": {
+        "@name": "Ig kappa chain C region", 
+        "accession": {
+          "@id": "P01834"
+        }
+      }, 
+      "polymerDescription": {
+        "@description": "IGG FAB (HUMAN IGG1, KAPPA)"
+      }, 
+      "fragment": {
+        "@desc": "CHIMERIC FRAGMENT (BR96)"
+      }, 
+      "details": {
+        "@desc": "COMPLEXED WITH LEWIS Y NONOATE METHYL ESTER"
+      }
+    }, 
+    {
+      "@entityNr": "2", 
+      "@length": "219", 
+      "@type": "protein", 
+      "@weight": "23609.6", 
+      "chain": {
+        "@id": "H"
+      }, 
+      "Taxonomy": {
+        "@name": "Homo sapiens", 
+        "@id": "9606"
+      }, 
+      "synonym": {
+        "@name": "CBR96 FAB (IMMUNOGLOBULIN)"
+      }, 
+      "polymerDescription": {
+        "@description": "IGG FAB (HUMAN IGG1, KAPPA)"
+      }, 
+      "fragment": {
+        "@desc": "CHIMERIC FRAGMENT (BR96)"
+      }, 
+      "details": {
+        "@desc": "COMPLEXED WITH LEWIS Y NONOATE METHYL ESTER"
+      }
+    }
+  ]
+}{
+  "@id": "1DCL", 
+  "polymer": {
+    "@entityNr": "1", 
+    "@length": "216", 
+    "@type": "protein", 
+    "@weight": "22818.3", 
+    "chain": [
+      {
+        "@id": "A"
+      }, 
+      {
+        "@id": "B"
+      }
+    ], 
+    "Taxonomy": {
+      "@name": "Homo sapiens", 
+      "@id": "9606"
+    }, 
+    "synonym": {
+      "@name": "BENCE-JONES PROTEIN"
+    }, 
+    "macroMolecule": {
+      "@name": "Ig lambda chain V-II region MGC", 
+      "accession": {
+        "@id": "P01709"
+      }
+    }, 
+    "polymerDescription": {
+      "@description": "MCG"
+    }, 
+    "mutation": {
+      "@desc": "F20I, S23T, D28N, I29V, N31G, R39Q, P42A, L48V, M49I, T54N, N62D, A94E, N97D, S98N, L99F, I100V, G103T, R106K, L107V, A116N, S118T, S156G, T167K"
+    }, 
+    "details": {
+      "@desc": "A LAMBDA V TYPE LIGHT-CHAIN DIMER"
+    }
+  }
+}{
+  "@id": "1FVC", 
+  "polymer": [
+    {
+      "@entityNr": "1", 
+      "@length": "109", 
+      "@type": "protein", 
+      "@weight": "11964.4", 
+      "chain": [
+        {
+          "@id": "A"
+        }, 
+        {
+          "@id": "C"
+        }
+      ], 
+      "Taxonomy": {
+        "@name": "Homo sapiens", 
+        "@id": "9606"
+      }, 
+      "polymerDescription": {
+        "@description": "IGG1-KAPPA 4D5 FV (LIGHT CHAIN)"
+      }, 
+      "mutation": {
+        "@desc": "S28D, I29V, S30N, S31T, Y32A, L33V, N34A, A50S, S53F, Q55Y, G66R, S91H, S93T, &Delta;W119"
+      }
+    }, 
+    {
+      "@entityNr": "2", 
+      "@length": "120", 
+      "@type": "protein", 
+      "@weight": "13176.7", 
+      "chain": [
+        {
+          "@id": "B"
+        }, 
+        {
+          "@id": "D"
+        }
+      ], 
+      "Taxonomy": {
+        "@name": "Homo sapiens", 
+        "@id": "9606"
+      }, 
+      "polymerDescription": {
+        "@description": "IGG1-KAPPA 4D5 FV (HEAVY CHAIN)"
+      }
+    }
+  ]
+}{
+  "@id": "1FVD", 
+  "polymer": [
+    {
+      "@entityNr": "1", 
+      "@length": "214", 
+      "@type": "protein", 
+      "@weight": "23432.2", 
+      "chain": [
+        {
+          "@id": "A"
+        }, 
+        {
+          "@id": "C"
+        }
+      ], 
+      "Taxonomy": {
+        "@name": "Homo sapiens", 
+        "@id": "9606"
+      }, 
+      "polymerDescription": {
+        "@description": "IGG1-KAPPA 4D5 FAB (LIGHT CHAIN)"
+      }, 
+      "mutation": {
+        "@desc": "F14S, S28D, I29V, S30N, S31T, Y32A, L33V, N34A, A50S, S53F, Q55E, G66R, S91H, H92Y, S93T, Y96P, N103K, L104V"
+      }
+    }, 
+    {
+      "@entityNr": "2", 
+      "@length": "223", 
+      "@type": "protein", 
+      "@weight": "23722.8", 
+      "chain": [
+        {
+          "@id": "B"
+        }, 
+        {
+          "@id": "D"
+        }
+      ], 
+      "Taxonomy": {
+        "@name": "Homo sapiens", 
+        "@id": "9606"
+      }, 
+      "polymerDescription": {
+        "@description": "IGG1-KAPPA 4D5 FAB (HEAVY CHAIN)"
+      }, 
+      "mutation": {
+        "@desc": "A28N, Y29I, S30K, S31D, F32T, W33Y, M34I, R43K, V46E, S49A, N52Y, D54T, G55N, R56G, I57Y, V59R, A63S, R72A, N74T, A75S, N85S, A97S, T102D, R103G, &Delta;L122, &Delta;E123, &Delta;L124, &Delta;T125, &Delta;S126, &Delta;R127, G105Y, Q106A, Q109V"
+      }
+    }
+  ]
+}{
+  "@id": "1IGM", 
+  "polymer": [
+    {
+      "@entityNr": "1", 
+      "@length": "115", 
+      "@type": "protein", 
+      "@weight": "12470.9", 
+      "chain": {
+        "@id": "L"
+      }, 
+      "Taxonomy": {
+        "@name": "Homo sapiens", 
+        "@id": "9606"
+      }, 
+      "polymerDescription": {
+        "@description": "IGM-KAPPA POT FV (LIGHT CHAIN)"
+      }, 
+      "mutation": {
+        "@desc": "N34A, K45E, L47R, D49Y, G50D, D92Q, G100P, E105D"
+      }
+    }, 
+    {
+      "@entityNr": "2", 
+      "@length": "129", 
+      "@type": "protein", 
+      "@weight": "13789.5", 
+      "chain": {
+        "@id": "H"
+      }, 
+      "Taxonomy": {
+        "@name": "Homo sapiens", 
+        "@id": "9606"
+      }, 
+      "polymerDescription": {
+        "@description": "IGM-KAPPA POT FV (HEAVY CHAIN)"
+      }
+    }
+  ]
+}{
+  "@id": "1ITB", 
+  "polymer": [
+    {
+      "@entityNr": "1", 
+      "@length": "153", 
+      "@type": "protein", 
+      "@weight": "17396.0", 
+      "chain": {
+        "@id": "A"
+      }, 
+      "Taxonomy": {
+        "@name": "Homo sapiens", 
+        "@id": "9606"
+      }, 
+      "macroMolecule": {
+        "@name": "Interleukin-1 beta", 
+        "accession": {
+          "@id": "P01584"
+        }
+      }, 
+      "polymerDescription": {
+        "@description": "INTERLEUKIN-1 BETA"
+      }
+    }, 
+    {
+      "@entityNr": "2", 
+      "@length": "315", 
+      "@type": "protein", 
+      "@weight": "36223.5", 
+      "chain": {
+        "@id": "B"
+      }, 
+      "Taxonomy": {
+        "@name": "Homo sapiens", 
+        "@id": "9606"
+      }, 
+      "macroMolecule": {
+        "@name": "Interleukin-1 receptor type 1", 
+        "accession": {
+          "@id": "P14778"
+        }
+      }, 
+      "polymerDescription": {
+        "@description": "TYPE 1 INTERLEUKIN-1 RECEPTOR"
+      }, 
+      "fragment": {
+        "@desc": "EXTRACELLULAR DOMAIN"
+      }
+    }
+  ]
+}{
+  "@id": "1LVE", 
+  "polymer": {
+    "@entityNr": "1", 
+    "@length": "122", 
+    "@type": "protein", 
+    "@weight": "13423.0", 
+    "chain": {
+      "@id": "A"
+    }, 
+    "Taxonomy": {
+      "@name": "Homo sapiens", 
+      "@id": "9606"
+    }, 
+    "macroMolecule": {
+      "@name": "Ig kappa chain V-IV region", 
+      "accession": {
+        "@id": "P06312"
+      }
+    }, 
+    "polymerDescription": {
+      "@description": "LEN, A VARIABLE DOMAIN FROM KAPPA-4 TYPE"
+    }
+  }
+}{
+  "@id": "1OAK", 
+  "polymer": [
+    {
+      "@entityNr": "1", 
+      "@length": "212", 
+      "@type": "protein", 
+      "@weight": "23462.0", 
+      "chain": {
+        "@id": "L"
+      }, 
+      "Taxonomy": {
+        "@name": "Mus musculus", 
+        "@id": "10090"
+      }, 
+      "macroMolecule": {
+        "@name": "Uncharacterized protein", 
+        "accession": {
+          "@id": "I6L971"
+        }
+      }, 
+      "polymerDescription": {
+        "@description": "NMC-4 IGG1"
+      }, 
+      "fragment": {
+        "@desc": "FAB FRAGMENT, AN ANTI VON WILLEBRAND FACTOR (VWF) A1 DOMAIN"
+      }, 
+      "details": {
+        "@desc": "THE ANTIBODY HEAVY CHAIN CONSISTS OF TWO SEGMENTS, H1 AND H2, BOTH LABELED CHAIN H IN THIS ENTRY"
+      }
+    }, 
+    {
+      "@entityNr": "2", 
+      "@length": "223", 
+      "@type": "protein", 
+      "@weight": "23887.7", 
+      "chain": {
+        "@id": "H"
+      }, 
+      "Taxonomy": {
+        "@name": "Mus musculus", 
+        "@id": "10090"
+      }, 
+      "polymerDescription": {
+        "@description": "NMC-4 IGG1"
+      }, 
+      "fragment": {
+        "@desc": "FAB FRAGMENT, AN ANTI VON WILLEBRAND FACTOR (VWF) A1 DOMAIN"
+      }, 
+      "details": {
+        "@desc": "THE ANTIBODY HEAVY CHAIN CONSISTS OF TWO SEGMENTS, H1 AND H2, BOTH LABELED CHAIN H IN THIS ENTRY"
+      }
+    }, 
+    {
+      "@entityNr": "3", 
+      "@length": "196", 
+      "@type": "protein", 
+      "@weight": "22444.3", 
+      "chain": {
+        "@id": "A"
+      }, 
+      "Taxonomy": {
+        "@name": "Homo sapiens", 
+        "@id": "9606"
+      }, 
+      "macroMolecule": {
+        "@name": "von Willebrand factor", 
+        "accession": {
+          "@id": "P04275"
+        }
+      }, 
+      "polymerDescription": {
+        "@description": "VON WILLEBRAND FACTOR"
+      }, 
+      "fragment": {
+        "@desc": "A1 DOMAIN RESIDUES 507 - 702, OR GLYCOPROTEIN IBA (A\\:ALPHA) BINDING DOMAIN"
+      }
+    }
+  ]
+}{
+  "@id": "1OHQ", 
+  "polymer": {
+    "@entityNr": "1", 
+    "@length": "120", 
+    "@type": "protein", 
+    "@weight": "12859.4", 
+    "chain": [
+      {
+        "@id": "A"
+      }, 
+      {
+        "@id": "B"
+      }
+    ], 
+    "Taxonomy": {
+      "@name": "Homo sapiens", 
+      "@id": "9606"
+    }, 
+    "macroMolecule": {
+      "@name": "Ig heavy chain V-III region 23", 
+      "accession": {
+        "@id": "P01764"
+      }
+    }, 
+    "polymerDescription": {
+      "@description": "IMMUNOGLOBULIN"
+    }, 
+    "fragment": {
+      "@desc": "FV FRAGMENT, RESIDUES 1-120"
+    }, 
+    "enzClass": {
+      "@ec": "3.4.19.13"
+    }
+  }
+}{
+  "@id": "1OL0", 
+  "polymer": {
+    "@entityNr": "1", 
+    "@length": "121", 
+    "@type": "protein", 
+    "@weight": "13254.5", 
+    "chain": [
+      {
+        "@id": "A"
+      }, 
+      {
+        "@id": "B"
+      }
+    ], 
+    "Taxonomy": {
+      "@name": "Homo sapiens", 
+      "@id": "9606"
+    }, 
+    "polymerDescription": {
+      "@description": "IMMUNOGLOBULIN G"
+    }, 
+    "fragment": {
+      "@desc": "VARIABLE HEAVY DOMAIN"
+    }
+  }
+}{
+  "@id": "1OPG", 
+  "polymer": [
+    {
+      "@entityNr": "1", 
+      "@length": "214", 
+      "@type": "protein", 
+      "@weight": "23550.0", 
+      "chain": {
+        "@id": "L"
+      }, 
+      "Taxonomy": {
+        "@name": "Homo sapiens", 
+        "@id": "9606"
+      }, 
+      "polymerDescription": {
+        "@description": "OPG2 FAB (LIGHT CHAIN)"
+      }
+    }, 
+    {
+      "@entityNr": "2", 
+      "@length": "227", 
+      "@type": "protein", 
+      "@weight": "24508.6", 
+      "chain": {
+        "@id": "H"
+      }, 
+      "Taxonomy": {
+        "@name": "Homo sapiens", 
+        "@id": "9606"
+      }, 
+      "macroMolecule": {
+        "@name": "Ig gamma-1 chain C region secreted form", 
+        "accession": {
+          "@id": "P01868"
+        }
+      }, 
+      "polymerDescription": {
+        "@description": "OPG2 FAB (HEAVY CHAIN)"
+      }
+    }
+  ]
+}{
+  "@id": "1REI", 
+  "polymer": {
+    "@entityNr": "1", 
+    "@length": "107", 
+    "@type": "protein", 
+    "@weight": "11752.1", 
+    "chain": [
+      {
+        "@id": "A"
+      }, 
+      {
+        "@id": "B"
+      }
+    ], 
+    "Taxonomy": {
+      "@name": "Homo sapiens", 
+      "@id": "9606"
+    }, 
+    "macroMolecule": {
+      "@name": "Ig kappa chain V-I region Rei", 
+      "accession": {
+        "@id": "P01607"
+      }
+    }, 
+    "polymerDescription": {
+      "@description": "BENCE-JONES PROTEIN REI (LIGHT CHAIN)"
+    }
+  }
+}{
+  "@id": "1UCB", 
+  "polymer": [
+    {
+      "@entityNr": "1", 
+      "@length": "219", 
+      "@type": "protein", 
+      "@weight": "24078.1", 
+      "chain": {
+        "@id": "L"
+      }, 
+      "Taxonomy": {
+        "@name": "Homo sapiens", 
+        "@id": "9606"
+      }, 
+      "synonym": {
+        "@name": "CBR96 FAB, IMMUNOGLOBULIN"
+      }, 
+      "macroMolecule": {
+        "@name": "Ig kappa chain C region", 
+        "accession": {
+          "@id": "P01834"
+        }
+      }, 
+      "polymerDescription": {
+        "@description": "CHIMERIC HUMAN/MOUSE IGG FAB FRAGMENT BR96"
+      }, 
+      "fragment": {
+        "@desc": "MOUSE VH AND VL DOMAINS, HUMAN CL KAPPA AND CH1 IGG1 DOMAINS"
+      }
+    }, 
+    {
+      "@entityNr": "2", 
+      "@length": "219", 
+      "@type": "protein", 
+      "@weight": "23609.6", 
+      "chain": {
+        "@id": "H"
+      }, 
+      "Taxonomy": {
+        "@name": "Homo sapiens", 
+        "@id": "9606"
+      }, 
+      "synonym": {
+        "@name": "CBR96 FAB, IMMUNOGLOBULIN"
+      }, 
+      "polymerDescription": {
+        "@description": "CHIMERIC HUMAN/MOUSE IGG FAB FRAGMENT BR96"
+      }, 
+      "fragment": {
+        "@desc": "MOUSE VH AND VL DOMAINS, HUMAN CL KAPPA AND CH1 IGG1 DOMAINS"
+      }
+    }
+  ]
+}{
+  "@id": "1VGE", 
+  "polymer": [
+    {
+      "@entityNr": "1", 
+      "@length": "214", 
+      "@type": "protein", 
+      "@weight": "23216.9", 
+      "chain": {
+        "@id": "L"
+      }, 
+      "Taxonomy": {
+        "@name": "Homo sapiens", 
+        "@id": "9606"
+      }, 
+      "polymerDescription": {
+        "@description": "TR1.9 FAB"
+      }, 
+      "fragment": {
+        "@desc": "FAB FRAGMENT OF A HUMAN IGG1 KAPPA AUTOANTIBODY"
+      }, 
+      "mutation": {
+        "@desc": "V11L, T20N, T22A, W32A, K45R, S50D, S53N, Q55E, S72T, S83F, T85I, A91F, F94Y, Y96L, Q100G, L191V"
+      }
+    }, 
+    {
+      "@entityNr": "2", 
+      "@length": "225", 
+      "@type": "protein", 
+      "@weight": "23967.1", 
+      "chain": {
+        "@id": "H"
+      }, 
+      "Taxonomy": {
+        "@name": "Homo sapiens", 
+        "@id": "9606"
+      }, 
+      "macroMolecule": {
+        "@name": "Ig gamma-1 chain C region", 
+        "accession": {
+          "@id": "P01857"
+        }
+      }, 
+      "polymerDescription": {
+        "@description": "TR1.9 FAB"
+      }, 
+      "fragment": {
+        "@desc": "FAB FRAGMENT OF A HUMAN IGG1 KAPPA AUTOANTIBODY"
+      }
+    }
+  ]
+}{
+  "@id": "1WTL", 
+  "polymer": {
+    "@entityNr": "1", 
+    "@length": "108", 
+    "@type": "protein", 
+    "@weight": "11745.1", 
+    "chain": [
+      {
+        "@id": "A"
+      }, 
+      {
+        "@id": "B"
+      }
+    ], 
+    "Taxonomy": {
+      "@name": "Homo sapiens", 
+      "@id": "9606"
+    }, 
+    "macroMolecule": {
+      "@name": "Ig kappa chain V-I region WAT", 
+      "accession": {
+        "@id": "P80362"
+      }
+    }, 
+    "polymerDescription": {
+      "@description": "BENCE-JONES PROTEIN MCG (LIGHT CHAIN)"
+    }
+  }
+}{
+  "@id": "2F5A", 
+  "polymer": [
+    {
+      "@entityNr": "1", 
+      "@length": "213", 
+      "@type": "protein", 
+      "@weight": "23260.9", 
+      "chain": {
+        "@id": "L"
+      }, 
+      "Taxonomy": {
+        "@name": "Homo sapiens", 
+        "@id": "9606"
+      }, 
+      "polymerDescription": {
+        "@description": "PROTEIN (ANTIBODY 2F5 (LIGHT CHAIN))"
+      }, 
+      "fragment": {
+        "@desc": "FAB'"
+      }
+    }, 
+    {
+      "@entityNr": "2", 
+      "@length": "232", 
+      "@type": "protein", 
+      "@weight": "24437.8", 
+      "chain": {
+        "@id": "H"
+      }, 
+      "Taxonomy": {
+        "@name": "Homo sapiens", 
+        "@id": "9606"
+      }, 
+      "polymerDescription": {
+        "@description": "PROTEIN (ANTIBODY 2F5 (HEAVY CHAIN))"
+      }, 
+      "fragment": {
+        "@desc": "FAB'"
+      }
+    }
+  ]
+}{
+  "@id": "2F5B", 
+  "polymer": [
+    {
+      "@entityNr": "1", 
+      "@length": "214", 
+      "@type": "protein", 
+      "@weight": "23364.0", 
+      "chain": {
+        "@id": "L"
+      }, 
+      "Taxonomy": {
+        "@name": "Homo sapiens", 
+        "@id": "9606"
+      }, 
+      "polymerDescription": {
+        "@description": "PROTEIN (ANTIBODY 2F5 (LIGHT CHAIN))"
+      }, 
+      "fragment": {
+        "@desc": "FAB'"
+      }
+    }, 
+    {
+      "@entityNr": "2", 
+      "@length": "235", 
+      "@type": "protein", 
+      "@weight": "24955.6", 
+      "chain": {
+        "@id": "H"
+      }, 
+      "Taxonomy": {
+        "@name": "Homo sapiens", 
+        "@id": "9606"
+      }, 
+      "polymerDescription": {
+        "@description": "PROTEIN (ANTIBODY 2F5 (HEAVY CHAIN))"
+      }, 
+      "fragment": {
+        "@desc": "FAB'"
+      }
+    }, 
+    {
+      "@entityNr": "3", 
+      "@length": "7", 
+      "@type": "protein", 
+      "@weight": "848.929", 
+      "chain": {
+        "@id": "P"
+      }, 
+      "Taxonomy": {
+        "@name": "Human immunodeficiency virus 1", 
+        "@id": "11676"
+      }, 
+      "macroMolecule": {
+        "@name": "Envelope glycoprotein gp160", 
+        "accession": {
+          "@id": "Q75760"
+        }
+      }, 
+      "polymerDescription": {
+        "@description": "PROTEIN (GP41 EPITOPE)"
+      }
+    }
+  ]
+}{
+  "@id": "2FB4", 
+  "polymer": [
+    {
+      "@entityNr": "1", 
+      "@length": "216", 
+      "@type": "protein", 
+      "@weight": "22817.5", 
+      "chain": {
+        "@id": "L"
+      }, 
+      "Taxonomy": {
+        "@name": "Homo sapiens", 
+        "@id": "9606"
+      }, 
+      "macroMolecule": {
+        "@name": "Ig lambda-1 chain C regions", 
+        "accession": {
+          "@id": "P0CG04"
+        }
+      }, 
+      "polymerDescription": {
+        "@description": "IGG1-LAMBDA KOL FAB (LIGHT CHAIN)"
+      }
+    }, 
+    {
+      "@entityNr": "2", 
+      "@length": "229", 
+      "@type": "protein", 
+      "@weight": "24325.3", 
+      "chain": {
+        "@id": "H"
+      }, 
+      "Taxonomy": {
+        "@name": "Homo sapiens", 
+        "@id": "9606"
+      }, 
+      "macroMolecule": {
+        "@name": "Ig heavy chain V-III region KOL", 
+        "accession": {
+          "@id": "P01772"
+        }
+      }, 
+      "polymerDescription": {
+        "@description": "IGG1-LAMBDA KOL FAB (HEAVY CHAIN)"
+      }, 
+      "mutation": {
+        "@desc": "E6Q, A23S, A24S, T28I, N31S, G33A, H35Y, A50I, Y53D, N57D, K58Q, Y59H, D73N, N74D, Y80F, M81L, N84D, A88P, A92G, Y95F, E99D, R101G, W101AH, V101BG, R101CF, Y101DC, T102S, T103S, V104A, T104AS, T104BC, I104CF, &Delta;Y132, &Delta;Y133, F105P, L113P, E153Q"
+      }
+    }
+  ]
+}{
+  "@id": "2IWG", 
+  "polymer": [
+    {
+      "@entityNr": "1", 
+      "@length": "207", 
+      "@type": "protein", 
+      "@weight": "23547.8", 
+      "chain": [
+        {
+          "@id": "A"
+        }, 
+        {
+          "@id": "D"
+        }
+      ], 
+      "Taxonomy": {
+        "@name": "Homo sapiens", 
+        "@id": "9606"
+      }, 
+      "synonym": {
+        "@name": "LJ1"
+      }, 
+      "macroMolecule": {
+        "@name": "Ig gamma-1 chain C region", 
+        "accession": {
+          "@id": "P01857"
+        }
+      }, 
+      "polymerDescription": {
+        "@description": "IG GAMMA-1 CHAIN C"
+      }, 
+      "fragment": {
+        "@desc": "RESIDUES 120-326"
+      }
+    }, 
+    {
+      "@entityNr": "2", 
+      "@length": "181", 
+      "@type": "protein", 
+      "@weight": "20602.4", 
+      "chain": [
+        {
+          "@id": "B"
+        }, 
+        {
+          "@id": "E"
+        }
+      ], 
+      "Taxonomy": {
+        "@name": "Homo sapiens", 
+        "@id": "9606"
+      }, 
+      "synonym": {
+        "@name": "LJ1, SJOEGREN SYNDROME TYPE A ANTIGEN, SS-A, RO, 52 KDA RIBONUCLEOPROTEIN AUTOANTIGEN RO/SS-A, TRIPARTITE MOTIF PROTEIN 21, RING FINGER PROTEIN 81"
+      }, 
+      "macroMolecule": {
+        "@name": "E3 ubiquitin-protein ligase TRIM21", 
+        "accession": {
+          "@id": "P19474"
+        }
+      }, 
+      "polymerDescription": {
+        "@description": "52 KDA RO PROTEIN"
+      }, 
+      "fragment": {
+        "@desc": "RESIDUES 287-465"
+      }
+    }
+  ]
+}{
+  "@id": "2MCG", 
+  "polymer": {
+    "@entityNr": "1", 
+    "@length": "216", 
+    "@type": "protein", 
+    "@weight": "22833.2", 
+    "chain": [
+      {
+        "@id": "1"
+      }, 
+      {
+        "@id": "2"
+      }
+    ], 
+    "Taxonomy": {
+      "@name": "Homo sapiens", 
+      "@id": "9606"
+    }, 
+    "macroMolecule": {
+      "@name": "Ig lambda chain V-II region MGC", 
+      "accession": {
+        "@id": "P01709"
+      }
+    }, 
+    "polymerDescription": {
+      "@description": "IMMUNOGLOBULIN LAMBDA DIMER MCG (LIGHT CHAIN)"
+    }, 
+    "mutation": {
+      "@desc": "F20I, S23T, I29V, N31G, R39Q, P42A, L48V, M49I, T54N, N62D, A94E, N97D, S98N, L99F, I100V, G103T, R106K, L107V, A116N, S118T, S156G, T167K"
+    }
+  }
+}{
+  "@id": "2RHE", 
+  "polymer": {
+    "@entityNr": "1", 
+    "@length": "114", 
+    "@type": "protein", 
+    "@weight": "11841.1", 
+    "chain": {
+      "@id": "A"
+    }, 
+    "Taxonomy": {
+      "@name": "Homo sapiens", 
+      "@id": "9606"
+    }, 
+    "polymerDescription": {
+      "@description": "BENCE-JONES PROTEIN RHE (LIGHT CHAIN)"
+    }, 
+    "mutation": {
+      "@desc": "S23T, S26A, S27T, N28D, T33S, N35I, L40V, T43K, R51Y, N53D, Q54L, R55L, P60S, G65A, Q80E, D93N, N97D, G98E, V99P, V100G"
+    }
+  }
+}{
+  "@id": "3BJL", 
+  "polymer": {
+    "@entityNr": "1", 
+    "@length": "216", 
+    "@type": "protein", 
+    "@weight": "22770.2", 
+    "chain": [
+      {
+        "@id": "A"
+      }, 
+      {
+        "@id": "B"
+      }
+    ], 
+    "Taxonomy": {
+      "@name": "Homo sapiens", 
+      "@id": "9606"
+    }, 
+    "synonym": {
+      "@name": "BENCE-JONES PROTEIN"
+    }, 
+    "polymerDescription": {
+      "@description": "LOC - LAMBDA 1 TYPE LIGHT-CHAIN DIMER"
+    }, 
+    "mutation": {
+      "@desc": "I19T, G31E, T33S, N35T, Q39H, P41S, R43T, H50Y, S51E, N52D, Q54S, P56A, P60S, G65A, S81P, A85T, &Delta;N115, G97D, R98V, Y99A"
+    }, 
+    "details": {
+      "@desc": "CRYSTALLIZED IN AMMONIUM SULFATE"
+    }
+  }
+}{
+  "@id": "3LVE", 
+  "polymer": {
+    "@entityNr": "1", 
+    "@length": "114", 
+    "@type": "protein", 
+    "@weight": "12651.1", 
+    "chain": {
+      "@id": "A"
+    }, 
+    "Taxonomy": {
+      "@name": "Homo sapiens", 
+      "@id": "9606"
+    }, 
+    "macroMolecule": {
+      "@name": "Ig kappa chain V-IV region", 
+      "accession": {
+        "@id": "P06312"
+      }
+    }, 
+    "polymerDescription": {
+      "@description": "LEN"
+    }, 
+    "mutation": {
+      "@desc": "Q38E"
+    }, 
+    "details": {
+      "@desc": "KAPPA-IV LIGHT CHAIN DIMER"
+    }
+  }
+}{
+  "@id": "3MCG", 
+  "polymer": {
+    "@entityNr": "1", 
+    "@length": "216", 
+    "@type": "protein", 
+    "@weight": "22833.2", 
+    "chain": [
+      {
+        "@id": "1"
+      }, 
+      {
+        "@id": "2"
+      }
+    ], 
+    "Taxonomy": {
+      "@name": "Homo sapiens", 
+      "@id": "9606"
+    }, 
+    "macroMolecule": {
+      "@name": "Ig lambda chain V-II region MGC", 
+      "accession": {
+        "@id": "P01709"
+      }
+    }, 
+    "polymerDescription": {
+      "@description": "IMMUNOGLOBULIN LAMBDA DIMER MCG (LIGHT CHAIN)"
+    }, 
+    "mutation": {
+      "@desc": "F20I, S23T, I29V, N31G, R39Q, P42A, L48V, M49I, T54N, N62D, A94E, N97D, S98N, L99F, I100V, G103T, R106K, L107V, A116N, S118T, S156G, T167K"
+    }
+  }
+}{
+  "@id": "4BJL", 
+  "polymer": {
+    "@entityNr": "1", 
+    "@length": "216", 
+    "@type": "protein", 
+    "@weight": "22770.2", 
+    "chain": [
+      {
+        "@id": "A"
+      }, 
+      {
+        "@id": "B"
+      }
+    ], 
+    "Taxonomy": {
+      "@name": "Homo sapiens", 
+      "@id": "9606"
+    }, 
+    "synonym": {
+      "@name": "BENCE-JONES PROTEIN"
+    }, 
+    "polymerDescription": {
+      "@description": "LOC - LAMBDA 1 TYPE LIGHT-CHAIN DIMER"
+    }, 
+    "mutation": {
+      "@desc": "I19T, G31E, T33S, N35T, Q39H, P41S, R43T, H50Y, S51E, N52D, Q54S, P56A, P60S, G65A, S81P, A85T, &Delta;N115, G97D, R98V, Y99A"
+    }, 
+    "details": {
+      "@desc": "CRYSTALLIZED IN DISTILLED WATER"
+    }
+  }
+}{
+  "@id": "4LVE", 
+  "polymer": {
+    "@entityNr": "1", 
+    "@length": "114", 
+    "@type": "protein", 
+    "@weight": "12622.0", 
+    "chain": [
+      {
+        "@id": "A"
+      }, 
+      {
+        "@id": "B"
+      }
+    ], 
+    "Taxonomy": {
+      "@name": "Homo sapiens", 
+      "@id": "9606"
+    }, 
+    "macroMolecule": {
+      "@name": "Ig kappa chain V-IV region", 
+      "accession": {
+        "@id": "P06312"
+      }
+    }, 
+    "polymerDescription": {
+      "@description": "LEN"
+    }, 
+    "mutation": {
+      "@desc": "K30T"
+    }, 
+    "details": {
+      "@desc": "KAPPA-IV LIGHT CHAIN DIMER"
+    }
+  }
+}{
+  "@id": "8FAB", 
+  "polymer": [
+    {
+      "@entityNr": "1", 
+      "@length": "212", 
+      "@type": "protein", 
+      "@weight": "22767.4", 
+      "chain": [
+        {
+          "@id": "A"
+        }, 
+        {
+          "@id": "C"
+        }
+      ], 
+      "Taxonomy": {
+        "@name": "Homo sapiens", 
+        "@id": "9606"
+      }, 
+      "polymerDescription": {
+        "@description": "IGG1-LAMBDA HIL FAB (LIGHT CHAIN)"
+      }, 
+      "mutation": {
+        "@desc": "S19R, G24A, D25N, T26A, G28P, D29N, K30Q, C33Y, H41R, S42A, L45M, F48Y, Q49K, S51T, K52Q, E59Q, G63S, N65T, N68T, A70V, T77V, M80E, S92N, T94A, A95S, V96I, V155I"
+      }
+    }, 
+    {
+      "@entityNr": "2", 
+      "@length": "224", 
+      "@type": "protein", 
+      "@weight": "24090.4", 
+      "chain": [
+        {
+          "@id": "B"
+        }, 
+        {
+          "@id": "D"
+        }
+      ], 
+      "Taxonomy": {
+        "@name": "Homo sapiens", 
+        "@id": "9606"
+      }, 
+      "polymerDescription": {
+        "@description": "IGG1-LAMBDA HIL FAB (HEAVY CHAIN)"
+      }, 
+      "mutation": {
+        "@desc": "Q3K, E6Q, S7A, A23I, A50V, D54N, N57R, K58T, A61G, N77R, A88T, &Delta;R117, &Delta;E118, &Delta;G119, &Delta;R120, &Delta;W121, &Delta;V122, Y99D, T100P, T101D, V102I, T103L, &Delta;I130, G105A, Y106F, Y107S, T115V, R218K"
+      }
+    }
+  ]
+}
