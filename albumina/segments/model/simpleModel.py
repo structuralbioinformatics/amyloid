@@ -9,8 +9,8 @@ import sys
 import os
 import re
 import warnings
-from argparse import (ArgumentParser,
-                      ArgumentDefaultsHelpFormatter)
+from argparse import ArgumentParser
+from argparse import ArgumentDefaultsHelpFormatter
 
 from modeller import *
 from modeller.automodel import *

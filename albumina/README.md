@@ -48,9 +48,20 @@ mkdir -p model
 cd model
 ```
 
-We will run **MODELLER** following the alignment in ```clusterin.pir```, based in the structure of the ```albumin_cterm``` region.
+We will run **MODELLER** following the alignment in ```clusterin.pir```, based in the structure of the ```albumin_cterm``` region by
+using the ```simpleModel.py``` script, obtaining 5 alternative models.
+
+Then the models will be minimized and repacked with the ```min_pack_min``` Rosetta application.
 
 ```bash
+~/local/repos/rosetta/main/source/bin/min_pack_min.linuxgccrelease -in:file:s clusterin.B*pdb -out:file:silent clusterin.models.minimized.silent
+```
+
+As the structure clusterin.B99990003_0001.pdb scores far better than the rest according to Rosetta (```-23.079``` while the second performer scores ```-12.829```),
+we select that one as the segment to use in the following steps.
+
+```bash
+cp clusterin.B99990003_0001.pdb ../clusterin.pdb
 cd ../..
 ```
 
@@ -84,4 +95,3 @@ cd ../..
 ## Analysis
 
 Analysis of the generated decoys is performed in the attached *jupyter notebook*.
-
