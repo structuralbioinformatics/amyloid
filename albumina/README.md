@@ -41,8 +41,17 @@ save albumin_cterm_lid.pdb, 5FUO and i. 539-582
 save amyloid_beta.pdb, 5OQV and c. B
 ```
 
+### Creating the model for clusterin
+
 ```bash
-cd ..
+mkdir -p model
+cd model
+```
+
+We will run **MODELLER** following the alignment in ```clusterin.pir```, based in the structure of the ```albumin_cterm``` region.
+
+```bash
+cd ../..
 ```
 
 ## Preparing Docking
@@ -57,7 +66,7 @@ their respective folders.
 
 ## Docking
 
-*Actual execution was performed on cluster, thus naming of the decoys include JOBID and ARRAYID* 
+*Actual execution was performed on cluster, thus naming of the decoys include JOBID and ARRAYID*
 
 ```bash
 cd docking/amyloid_alpha
