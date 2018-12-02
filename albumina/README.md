@@ -68,7 +68,7 @@ cd ../..
 ## Preparing Docking
 
 ```bash
-mkdir -p docking/{clusterin_alpha,clusterin_beta,amyloid_alpha,amyloid_beta,albumin_cterm_lid}
+mkdir -p docking/{clust_alpha,clust_beta,amyloid_alpha,amyloid_beta,albumin_cterm_lid}
 ```
 
 The input for docking with Rosetta is a file containing the two structures placed a no more than
@@ -80,7 +80,13 @@ their respective folders.
 *Actual execution was performed on cluster, thus naming of the decoys include JOBID and ARRAYID*
 
 ```bash
-cd docking/amyloid_alpha
+cd docking/clust_alpha
+$ROSETTABIN/rosetta_scripts.linuxiccrelease -parser:protocol ../docking.xml -s clust_alpha.pdb -ex1 -ex2 -docking:sc_min -randomize2 -randomize1 -nstruct 10000 -out:file:silent clust_alpha.silent
+minisilent.py -in:file clust_alpha.silent -out:file clust_alpha.minisilent.gz
+cd ../clust_beta
+$ROSETTABIN/rosetta_scripts.linuxiccrelease -parser:protocol ../docking.xml -s clust_beta.pdb -ex1 -ex2 -docking:sc_min -randomize2 -randomize1 -nstruct 10000 -out:file:silent clust_beta.silent
+minisilent.py -in:file clust_beta.silent -out:file clust_beta.minisilent.gz
+cd ../amyloid_alpha
 $ROSETTABIN/rosetta_scripts.linuxiccrelease -parser:protocol ../docking.xml -s alpha.pdb -ex1 -ex2 -docking:sc_min -randomize2 -randomize1 -nstruct 10000 -out:file:silent alpha_dock.silent
 minisilent.py -in:file alpha_dock.silent -out:file alpha_dock.minisilent.gz
 cd ../amyloid_beta
