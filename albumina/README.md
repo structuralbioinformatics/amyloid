@@ -17,6 +17,8 @@ wget https://files.rcsb.org/download/5OQV.pdb
 cd ..
 ```
 
+> The folder `source/alpha_amyloids` contains the logic towards the selection of `1IYT` as the representative of the amyloid's alpha conformation. Quickly, _(1)_ it provides the query performed to the PDB (`source/alpha_amyloids/PDBquery.xml`) that focuses on searching Uniprot Accession **P05067** as a **single entity** (not bound to anything) **without ligands** and with **alpha helical content**. The list of the 30 identifiers matching these restrictions (as of 2018) is stored in `source/alpha_amyloids/PDB.match`. _(2)_ In `source/alpha_amyloids/alignment.highlight.aln` it is shown how only two structures, `1IYT` and `1Z0Q` represent the individualized 42 residues of the amyloid peptide.
+
 ## Individualize Regions of Interest
 
 ```bash
