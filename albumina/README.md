@@ -10,12 +10,16 @@ wget https://files.rcsb.org/download/5FUO.pdb
 
 # Fetch the amyloid 42 - alpha PDB https://doi.org/10.1046/j.1432-1033.2002.03271.x
 wget https://files.rcsb.org/download/1IYT.pdb
+# Fetch the amyloid 42 - alpha PDB (v2) http://dx.doi.org/10.1002/cbic.200500223
+wget https://files.rcsb.org/download/1Z0Q.pdb
 
 # Fetch the amyloid 42 - beta PDB http://doi.org/10.1126/science.aao2825
 wget https://files.rcsb.org/download/5OQV.pdb
 
 cd ..
 ```
+
+> The folder `source/alpha_amyloids` contains the logic towards the selection of `1IYT` as the representative of the amyloid's alpha conformation. Quickly, _(1)_ it provides the query performed to the PDB (`source/alpha_amyloids/PDBquery.xml`) that focuses on searching Uniprot Accession **P05067** as a **single entity** (not bound to anything) **without ligands** and with **alpha helical content**. The list of the 30 identifiers matching these restrictions (as of 2018) is stored in `source/alpha_amyloids/PDB.match`. _(2)_ In `source/alpha_amyloids/alignment.highlight.aln` it is shown how only two structures, `1IYT` and `1Z0Q` represent the individualized 42 residues of the amyloid peptide.
 
 ## Individualize Regions of Interest
 
@@ -30,11 +34,14 @@ will be assigned as *chain B*.
 
 Following are the *PyMol* commands:
 ```bash
+load ../source/1Z0Q.pdb
 load ../source/1IYT.pdb
 load ../source/5FUO.pdb
 load ../source/5OQV.pdb
 alter 1IYT, chain='B'
+alter 1Z0Q, chain='B'
 save amyloid_alpha.pdb, 1IYT, state=1
+save amyloid_alpha2.pdb, 1Z0Q, state=1
 save albumin_cterm.pdb, 5FUO and i. 504-538
 alter 5FUO, chain='B'
 save albumin_cterm_lid.pdb, 5FUO and i. 539-582
@@ -68,7 +75,7 @@ cd ../..
 ## Preparing Docking
 
 ```bash
-mkdir -p docking/{clust_alpha,clust_beta,amyloid_alpha,amyloid_beta,albumin_cterm_lid}
+mkdir -p docking/{clust_alpha,clust_alpha2,clust_beta,amyloid_alpha,amyloid_alpha2,amyloid_beta,albumin_cterm_lid}
 ```
 
 The input for docking with Rosetta is a file containing the two structures placed a no more than
@@ -83,12 +90,18 @@ their respective folders.
 cd docking/clust_alpha
 $ROSETTABIN/rosetta_scripts.linuxiccrelease -parser:protocol ../docking.xml -s clust_alpha.pdb -ex1 -ex2 -docking:sc_min -randomize2 -randomize1 -nstruct 10000 -out:file:silent clust_alpha.silent
 minisilent.py -in:file clust_alpha.silent -out:file clust_alpha.minisilent.gz
+cd docking/clust_alpha2
+$ROSETTABIN/rosetta_scripts.linuxiccrelease -parser:protocol ../docking.xml -s clust_alpha2.pdb -ex1 -ex2 -docking:sc_min -randomize2 -randomize1 -nstruct 10000 -out:file:silent clust_alpha2.silent
+minisilent.py -in:file clust_alpha2.silent -out:file clust_alpha2.minisilent.gz
 cd ../clust_beta
 $ROSETTABIN/rosetta_scripts.linuxiccrelease -parser:protocol ../docking.xml -s clust_beta.pdb -ex1 -ex2 -docking:sc_min -randomize2 -randomize1 -nstruct 10000 -out:file:silent clust_beta.silent
 minisilent.py -in:file clust_beta.silent -out:file clust_beta.minisilent.gz
 cd ../amyloid_alpha
 $ROSETTABIN/rosetta_scripts.linuxiccrelease -parser:protocol ../docking.xml -s alpha.pdb -ex1 -ex2 -docking:sc_min -randomize2 -randomize1 -nstruct 10000 -out:file:silent alpha_dock.silent
 minisilent.py -in:file alpha_dock.silent -out:file alpha_dock.minisilent.gz
+cd ../amyloid_alpha2
+$ROSETTABIN/rosetta_scripts.linuxiccrelease -parser:protocol ../docking.xml -s alpha2.pdb -ex1 -ex2 -docking:sc_min -randomize2 -randomize1 -nstruct 10000 -out:file:silent alpha_dock2.silent
+minisilent.py -in:file alpha_dock2.silent -out:file alpha_dock2.minisilent.gz
 cd ../amyloid_beta
 $ROSETTABIN/rosetta_scripts.linuxiccrelease -parser:protocol ../docking.xml -s beta.pdb -ex1 -ex2 -docking:sc_min -randomize2 -randomize1 -nstruct 10000 -out:file:silent beta_dock.silent
 minisilent.py -in:file beta_dock.silent -out:file beta_dock.minisilent.gz
